@@ -1,0 +1,23 @@
+.carousel-item {
+    height: 95vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+    text-shadow: #000 1px 0 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}

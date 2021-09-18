@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Portofolio Magang Gamelab Indonesia</title>
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+    @import url('https://css.gg/eye.css');
+
+    body {
+        height: 100%;
+        background-color: #202945;
+    }
+
+    .nav-pills {
+        padding: 0;
+    }
+
+    .nav-pills .nav-link {
+        border-radius: 1.25rem;
+        color: #fff;
+        background-color: #374368;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: #6E8AE0;
+        filter: drop-shadow(0 0 .3125rem #6E8AE0);
+    }
+
+    .nav-pills .nav-link:hover {
+        filter: drop-shadow(0 0 .3125rem #6E8AE0);
+    }
+
+    .content {
+        cursor: pointer;
+        position: relative;
+    }
+
+    .tab-content a {
+        color: #fff;
+    }
+
+    .content .image-content:hover {
+        filter: drop-shadow(0 0 .3125rem #6E8AE0);
+    }
+
+    .content .image-content {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        border-radius: 20px;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .content .overlay-content {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .content:hover .image-content {
+        opacity: 0.3;
+    }
+
+    .content:hover .overlay-content {
+        opacity: 1;
+    }
+</style>
+
+<body class="py-4">
+    <div class="container d-flex h-100 justify-content-center">
+        <div class="row align-self-center w-100 text-center text-white">
+            <h1>Portofolio Magang</h1>
+            <a href="https://www.linkedin.com/in/k-ardliyan/" target="_blank" class="mb-3 text-decoration-none text-white">oleh Kholifatul Ardliyan</a>
+
+            <!-- Tab Kelas/Proyek -->
+            <ul class="nav nav-pills mb-3 justify-content-center tab-class-project" id="pills-tab" role="tablist">
+                <li class="nav-item mx-2" role="presentation">
+                    <button class="nav-link" id="pills-class-tab" data-bs-toggle="pill" data-bs-target="#pills-class"
+                        type="button" role="tab" aria-controls="pills-class" aria-selected="true">Kelas</button>
+                </li>
+                <li class="nav-item mx-2" role="presentation">
+                    <button class="nav-link" id="pills-project-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-project" type="button" role="tab" aria-controls="pills-project"
+                        aria-selected="false">Proyek</button>
+                </li>
+            </ul>
+
+            <!-- Content Kelas/Proyek -->
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade" id="pills-class" role="tabpanel" aria-labelledby="pills-class-tab">
+                    <!-- Tab Kelas -->
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item mx-2 mb-3" role="presentation">
+                            <button class="nav-link" id="pills-class1-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-class1" type="button" role="tab" aria-controls="pills-class1"
+                                aria-selected="true">Belajar Web Fundamental HTML dan CSS</button>
+                        </li>
+                        <li class="nav-item mx-2 mb-3" role="presentation">
+                            <button class="nav-link" id="pills-class2-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-class2" type="button" role="tab" aria-controls="pills-class2"
+                                aria-selected="false">Belajar Bootstrap CSS Framework</button>
+                        </li>
+                    </ul>
+
+                    <!-- Konten Kelas -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-class1" role="tabpanel" aria-labelledby="pills-class1-tab">
+                            <!-- Konten Kelas 1 -->
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-8 mb-3">
+                                    <a href="/class/1/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas1.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Landing Page
+                                                Osiris</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-class2" role="tabpanel" aria-labelledby="pills-class2-tab">
+                            <!-- Konten Kelas 2 -->
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-4 mb-3">
+                                    <a href="/class/2/1/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas-21.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Landing Page
+                                                Bootstrap 4</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3">
+                                    <a href="/class/2/2/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas-22.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Profil</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3">
+                                    <a href="/class/2/3/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas-23.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Kontak</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3">
+                                    <a href="/class/2/4/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas-24.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Navigasi Halaman
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3">
+                                    <a href="/class/2/5/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas-25.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Carousel</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3">
+                                    <a href="/class/2/6/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/kelas-26.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Landing Page
+                                                Webinar
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Projek -->
+                <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item mx-2 mb-3" role="presentation">
+                            <button class="nav-link" id="pills-project1-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-project1" type="button" role="tab" aria-controls="pills-project1"
+                                aria-selected="true">Landing Page</button>
+                        </li>
+                        <li class="nav-item mx-2 mb-3" role="presentation">
+                            <button class="nav-link" id="pills-project2-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-project2" type="button" role="tab" aria-controls="pills-project2"
+                                aria-selected="false">Dashboard</button>
+                        </li>
+                        <li class="nav-item mx-2 mb-3" role="presentation">
+                            <button class="nav-link" id="pills-project3-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-project3" type="button" role="tab" aria-controls="pills-project3"
+                                aria-selected="false">Redesign</button>
+                        </li>
+                    </ul>
+                    <!-- Konten Proyek -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-project1" role="tabpanel"
+                            aria-labelledby="pills-project1-tab">
+                            <!-- Konten Landing Page -->
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-8 mb-3">
+                                    <a href="project/1/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/proyek-landing-page.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Landing Page Kopi
+                                                Papasan</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-project2" role="tabpanel"
+                            aria-labelledby="pills-project2-tab">
+                            <!-- Konten Dashboard -->
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-8 mb-3">
+                                    <a href="project/2/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/proyek-dashboard.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Dashboard Admin
+                                                Starline</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-project3" role="tabpanel"
+                            aria-labelledby="pills-project3-tab">
+                            <!-- Konten Remake -->
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-8 mb-3">
+                                    <a href="project/3/" target="_blank">
+                                        <div class="content">
+                                            <img src="/assets/proyek-redesign.png" alt class="image-content">
+                                            <div class="overlay-content"><i class="gg-eye mx-auto"></i>Redesign Showreel
+                                                Gamelab</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

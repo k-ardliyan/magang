@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    min-height: 500px;
+}
+
+.progress {
+    height: 30px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.bg-animation {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.15);
+}
+
+.progress {
+    background-color:transparent;
+}
+
+.progress .progress-bar:hover{
+    background-color: #23d5ab !important;
+}
+
+.display-1 {
+    font-size: 64px;
+}
+
+.display-4 {
+    font-size: 36px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.text-focus-in {
+    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.btn-focus-in {
+    animation: text-focus-in 2s 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}

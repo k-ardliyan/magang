@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500;1,700&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.bg-animation {
+	position: relative;
+	width: 50vh;
+	height: 100vh;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+.contact {
+	width: 100vw;
+	height: 100vh;
+}
+
+@media only screen and (max-width: 960px) {
+	.bg-animation {
+		width: 40vh;
+	}
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}

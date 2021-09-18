@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-image: url('../img/imgtabanner.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-item .nav-link:hover {
+    border-bottom: 2px solid;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.rotate {
+    transition: transform .5s ease-in
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+header h4 {
+    max-width: 460px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 36px;
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-header {
+   padding: 150px 0 200px 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.btn-block:focus {
+    box-shadow: none !important;
+}
+
+.arrow-animation {
+    transition: all 0.2s ease-in-out
+}
+
+.arrow-animation-toggle[aria-expanded=true] .arrow-animation {
+    transform: rotate(-180deg);
+}
+
+.bg-light {
+    background-color: rgb(240,242,243) !important;
+}
+
+.text-tgl {
+    font-size: 14px;
+}
+
+.btn-sosmed {
+    width: 64px;
+    height: 64px;
+}
+
+a .fab {
+    padding-top: 9px;
+}

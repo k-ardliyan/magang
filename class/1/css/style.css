@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* Global */
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #34364A;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fix-height {
+    height: 700px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    padding: 21px 23px;
+}
+
+.btn-primary {
+    padding: 23px 23px;
+    background-color: #335EF7;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+}
+
+.btn-primary:hover {
+    background-color: #0438f3;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+.btn-secondry {
+    background-color: #E5E9F2;
+    color: #34364A;
+    font-weight: 500;
+}
+
+.btn-secondry:hover {
+    background-color: transparent;
+    color: #34364A;
+    font-weight: 700;
+}
+
+/* Header Navbar*/
+header {
+    margin-top: 70px;
+}
+
+header .brand {
+    font-weight: 700;
+    font-size: 26px;
+    float: left;
+}
+
+header .brand .brand-name {
+    display: block;
+    float: right;
+    margin: 17.5px;
+}
+
+header nav {
+    float: right;
+}
+
+header li {
+    font-weight: 500;
+    display: inline;
+    padding: 0 20px;
+}
+
+header li a {
+    line-height: 10px;
+}
+
+header li i {
+    background: #EDF1FA;
+    color: 34364A;
+    border-radius: 50px;
+    padding: 23px;
+    margin-top: 10px;
+}
+
+header li i:hover {
+    background: #34364A;
+    color: #EDF1FA;
+}
+
+header .login {
+    background: #EDF1FA;
+    border-radius: 50px;
+    padding: 16px 71.5px;
+    margin-top: 10px;
+}
+
+header .login:hover {
+    background: #34364A;
+    color: #EDF1FA;
+}
+
+/* Main */
+
+main .cover {
+    margin-top: 68px;
+    background: #F6F8FD;
+    border-radius: 40px;
+    padding: 20px;
+    height: 350px;
+}
+
+main .cover h1 {
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 500px;
+}
+
+main .cover p {
+    font-weight: 300;
+    max-width: 500px;
+    margin-bottom: 24px;
+}
+
+main .cover .cover-text {
+    padding: 25px 0 0 25px;
+}
+
+main .cover button {
+    margin-right: 10px;
+}
+
+main .cover .counter-number {
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 32px;
+    display: flex;
+    margin-top: 80px;
+}
+
+main .cover .counter-number>div {
+    margin: 10px;
+}
+
+main .cover .caption-number {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main .cover-image {
+    position: relative;
+    right: -460px;
+    top: -280px;
+}
+
+main .flex-container {
+    display: flex;
+}
+
+main .flex-container .left-image {
+    margin-right: 100px;
+}
+
+main .flex-container p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+main .flex-container .image-ellipse {
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+main .background-gray{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: #F6F8FD;
+}
+
+main .background-gray .bagian3{
+    margin: 80px 0 50px 0;
+}
+
+main .background-gray .flex-box{
+    flex: 1;
+    background-color: #FFFFFF;
+    margin: 45px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+main .flex-container .flex-left{
+    margin-right: 20px;
+}
+
+main .flex-container .flex-left p{
+    margin-bottom: 60px;
+}
+
+main .flex-container .flex-left a{
+    margin-right: 20px;
+}
+
+main .background-gray .bagian5{
+    margin: 80px 0 50px 0;
+    line-height: 70px;
+}
+
+main .background-gray .bagian5 p{
+    width: 550px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+main .background-gray .image-bagian5{
+    position: relative;
+    right: -900px;
+    top: -280px;
+}
+main .fix-bagian5{
+    height: 400px;
+}
+
+footer .background-dark{
+    background-color: #383638;
+    margin-top: -150px;
+    padding: 20px;
+}

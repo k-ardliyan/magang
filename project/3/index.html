@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showreel | Gamelab Indonesia</title>
+    <link rel="stylesheet" href="https://www.gamelab.id/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.gamelab.id/css/bootstrap-4.1.3.min.css">
+    <link rel="stylesheet" href="https://www.gamelab.id/css/bootstrap.custom.css?v=1.0.44">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-0 fixed-top navbar-public">
+        <div class="container">
+            <!-- Logo Mobile -->
+            <a class="navbar-brand py-3 d-inline-block d-md-none" href="/">
+                <img class="d-inline-block align-top" src="https://www.gamelab.id/img/hexuin.png" alt="Logo Gamelab"
+                    height="44">
+            </a>
+
+            <!-- Logo Desktop -->
+            <a class="navbar-brand py-3 d-none d-md-inline-block" href="/">
+                <img class="d-inline-block align-top" src="https://www.gamelab.id/img/logo-gamelab-187x51.png?v=1.1"
+                    alt="Logo Gamelab" height="44">
+            </a>
+
+            <!-- Tombol Dashboard, Login, Daftar di Mobile -->
+            <ul class="navbar-nav nav-border ml-auto mr-3 py-2 py-md-0 d-inline-block d-lg-none">
+                <li class="nav-item px-0">
+                    <a class="btn btn-info btn-torquise ml-1 px-4 rounded-custom btn-sm"
+                        href="https://www.gamelab.id/dashboard">Dashboard</a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle menu">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav nav-border mr-auto py-2 py-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gamelab.id/internship/">Magang</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Belajar</a>
+                        <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.gamelab.id/academy/">Semua Kelas</a>
+                            <a class="dropdown-item" href="https://www.gamelab.id/learning-paths">Jalur Belajar</a>
+                            <a class="dropdown-item" href="https://www.gamelab.id/prakerja">Kelas Prakerja</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">SMK</a>
+                        <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.gamelab.id/kelas-industri">Kelas Industri</a>
+                            <a class="dropdown-item" href="https://www.gamelab.id/teaching-factory">Teaching Factory</a>
+                            <a class="dropdown-item" href="https://www.gamelab.id/uji-kompetensi-keahlian">Uji
+                                Kompetensi Keahlian</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gamelab.id/karir">Karir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gamelab.id/showreel">Showreel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gamelab.id/event/">Acara</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gamelab.id/news/">Berita</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav nav-border ml-auto py-2 py-md-0 d-none d-lg-inline-block">
+                    <li class="nav-item px-0">
+                        <a class="btn btn-info btn-torquise ml-3 px-4 rounded-custom"
+                            href="https://www.gamelab.id/dashboard">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div id="wrapper">
+        <div class="wrapper" id="app">
+            <!-- <header class="py-3 bg-solid-blue text-white">
+                <div class="container">
+                    <div class="d-flex">
+                        <div class="align-self-center" style="max-width: 450px;">
+                            <h2 class="main-heading-showreel">Showcase Spot</h2>
+                            <p class="lead desc-lead">
+                                Temukan hasil & karya Designer dan Developer
+                                yang telah belajar dan magang di Gamelab
+                            </p>
+                            <button class="btn btn-outline-light temukan">Temukan <i class="fa fa-arrow-circle-right"></i></button>
+                        </div>
+                        <img src="assets/freepik-showreel.png" alt="" width="500" class="ml-auto py-5">
+                    </div>
+                </div>
+            </header> -->
+            <header class="py-3 bg-solid-blue text-white">
+                <div class="container header-2-1">
+                    <div class="mx-auto d-flex flex-lg-row flex-column hero">
+                        <!-- Left Column -->
+                        <div
+                            class="left-column d-flex flex-lg-grow-1 flex-column align-items-lg-start text-lg-start align-self-center text-center">
+                            <h1 class="text-lg-left title-text-big mb-0">
+                                Showcase Spot
+                            </h1>
+                            <p class="lead desc-lead text-lg-left">
+                                Temukan hasil & karya Designer dan Developer
+                                yang telah belajar dan magang di Gamelab
+                            </p>
+                            <div class="d-flex flex-sm-row flex-column align-items-center mx-lg-0 mx-auto justify-content-center gap-3">
+                                <a class="btn btn-outline-light d-inline-flex mb-md-0" href="#categories">
+                                    Lihat Sekarang
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Right Column -->
+                        <div class="right-column text-center d-flex justify-content-center">
+                            <img id="img-fluid" class="h-auto mw-100" src="assets/freepik-showreel.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="bg-dark">
+        <div class="container text-white py-5">
+            <div class="row manfaat">
+                <div class="col-12 col-md-3 align-self-md-center mb-md-0">
+                    <h3 class="font-weight-bold">Tujuan</h3>
+                    <p>Berikut merupakan tujuan adanya showcase spot</p>
+                    <hr class="bg-white d-block d-md-none mb-4">
+                </div>
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                    <i class="fa fa-2x fa-search mb-2"></i>
+                    <h5>Discover</h5>
+                    <p class="manfaat-deskripsi">Mengenali lebih jauh apa yang telah dibuat oleh peserta yang selesai belajar dan magang</p>
+                </div>
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                    <i class="fa fa-2x fa-map-pin mb-2"></i>
+                    <h5>Sharing</h5>
+                    <p class="manfaat-deskripsi">Sebagai tempat berbagi karya antar peserta yang telah selesai belajar dan magang</p>
+                </div>
+                <div class="col-12 col-md-3 mb-3 mb-md-0">
+                    <i class="fa fa-2x fa-book mb-2"></i>
+                    <h5>Reference</h5>
+                    <p class="manfaat-deskripsi">Tempat yang cocok untuk menambah referensi ide membuat karya yang serupa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content by Kholifatul Ardliyan -->
+    <main style="min-height: 42vh;">
+        <div class="container py-4">
+            <ul class="nav nav-pills align-items-center nav-fill" id="categories" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#threed-artwork" id="threed-artwork-tab" data-toggle="tab"
+                        aria-controls="3d-artwork" aria-selected="true">3D Artwork</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video-animation" id="video-animation-tab" data-toggle="tab"
+                        aria-controls="video-animation" aria-selected="false">Video & Animation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#game-programming" id="game-programming-tab" data-toggle="tab"
+                        aria-controls="game-programming" aria-selected="false">Game Programming</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#digital-music" id="digital-music-tab" data-toggle="tab"
+                        aria-controls="digital-music" aria-selected="false">Digital Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ui-ux-design" id="ui-ux-design-tab" data-toggle="tab"
+                        aria-controls="ui-ux-design" aria-selected="false">UI/UX Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#storybook" id="storybook-tab" data-toggle="tab" aria-controls="storybook"
+                        aria-selected="false">Storybook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#game-artwork" id="game-artwork-tab" data-toggle="tab"
+                        aria-controls="game-artwork" aria-selected="false">Game Artwork</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#web-frontend" id="web-frontend-tab" data-toggle="tab"
+                        aria-controls="web-frontend" aria-selected="false">Web Frontend</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#prakerja-3d" id="prakerja-3d-tab" data-toggle="tab"
+                        aria-controls="prakerja-3d" aria-selected="false">Prakerja 3D</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="categoriesContent">
+                <div class="tab-pane fade show active" id="threed-artwork" role="tabpanel"
+                    aria-labelledby="threed-artwork-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/showreel-3d-sains.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Science & Characters</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/showreel-3d-ruang-interior.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Rooms & Buildings</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/showreel-3d-culture.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Alat Musik Sasando Rote</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210531150159.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Alat Musik Sasando Rote</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210604174520.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">3D Truk Colt Diesel Double</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525170146.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Transportasi - Kapal Selam</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525165833.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Transportasi - Kapal Layar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="video-animation" role="tabpanel" aria-labelledby="video-animation-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/showreel-video-1.jpeg"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Dongeng Semut dan Kepompong</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/showreel-video-2.jpeg"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Dongeng Petani dan Telur Emas</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/showreel-video-3.jpeg"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Dongeng Cici si Kelinci</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="game-programming" role="tabpanel" aria-labelledby="game-programming-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210802203145.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Sort The Trash</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210802203052.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Moving Box Training</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171105.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Duck Hunter</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171259.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Piano Tile Reflex</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171211.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Jungle Dash</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171355.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Space Bubble</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171147.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Galaxy War</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525175403.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Life Capcy</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="digital-music" role="tabpanel" aria-labelledby="digital-music-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171517.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Marbel Dinosaurus</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ui-ux-design" role="tabpanel" aria-labelledby="ui-ux-design-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210709135339.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">KOLAK - Music Player App</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="storybook" role="tabpanel" aria-labelledby="storybook-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210802190010.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Nenek Tua Menyeramkan</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210802190058.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Rumah Misterius di Tengah Hutan</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210802185925.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Ketika Ibu Marah</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525170230.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Aku Tambah Tinggi</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525170750.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Kuda Pemalas</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525165028.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Buaya dan Naga di Pulau Mintin</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525170352.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Boneka dari Hutan Keramat</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525171013.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Telur Ajaib</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525170929.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Rumah Reyot Misterius</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525165009.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Domba Tanduk Patah</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210525164937.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">The Muffin Man</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="game-artwork" role="tabpanel" aria-labelledby="game-artwork-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210709083055.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Bangunan - Rumah Dongeng</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="web-frontend" role="tabpanel" aria-labelledby="web-frontend-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210804141512.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Dashboard - Cinematic</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="prakerja-3d" role="tabpanel" aria-labelledby="prakerja-3d-tab">
+                    <div class="row justify-content-center items">
+                        <div class="col-12 col-md-6 col-lg-4 my-3 item">
+                            <div class="item-showreel" data-target="#exampleModalCenter" data-toggle="modal">
+                                <img src="https://www.gamelab.id/img/showreel/showcase-image/Prakerja-3D/Achmad%20Rizul%20I-%20Prakerja%202021.png"
+                                    alt="gambar-karya" class="w-100 image-showreel">
+                                <div class="overlay-title">Character - Robot</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Content Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center position-relative modal-header-custom pt-1">
+                    <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">Game Programming</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img class="showreel-artwork w-100 mb-3"
+                        src="https://www.gamelab.id/uploads/artworks-types/project-types-Array-img-20210802203145.png"
+                        alt="gambar-karya" style="border-radius: 5px;">
+                    <h6 class="text-primary mb-2 showreel-title font-weight-bold" style="font-size: 18px">Sort The Trash
+                    </h6>
+                    <p class="mb-0 author-name">Javier Bima Pridatama</p>
+                    <p class="small text-muted mb-0 author-institution">Universitas Dian Nuswantoro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="py-4 bg-solid-blue text-light">
+        <div class="container py-2">
+            <div class="row mb-0">
+                <div class="col-12 col-lg-5 mb-4 mb-sm-5 mb-lg-0">
+                    <h1 class="h5 mb-3">
+                        Gamelab Indonesia
+                    </h1>
+                    <p class="mb-0">
+                        Gamelab Indonesia adalah platform satu pintu untuk meningkatkan
+                        skill yang terdiri dari program akademi dan sertifikasi,
+                        magang untuk tujuan akademis (PKL, Internship, Prakerin), pelatihan
+                        online dan job portal.
+                    </p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 offset-lg-1 mb-4 mb-sm-0">
+                    <h4 class="h6 mb-3">PERUSAHAAN</h4>
+                    <ul class="mb-0 list-unstyled">
+                        <li>
+                            <a href="https://www.gamelab.id/about/" class="text-light">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gamelab.id/news/" class="text-light">Berita Terbaru</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gamelab.id/event/" class="text-light">Acara Terbaru</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gamelab.id/forum" class="text-light">Forum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4 mb-sm-0">
+                    <h4 class="h6 mb-3">PROGRAM</h4>
+                    <ul class="mb-0 list-unstyled">
+                        <li>
+                            <a href="https://www.gamelab.id/internship/" class="text-light">Magang</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gamelab.id/academy/" class="text-light">Akademi</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gamelab.id/workshop/" class="text-light">Pelatihan</a>
+                        </li>
+                        <li>
+                            <a href="https://www.gamelab.id/gamification/" class="text-light">Gamifikasi</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2">
+                    <h4 class="h6 mb-3">SUPPORT</h4>
+                    <ul class="mb-0 list-unstyled">
+                        <div class="row">
+                            <div class="col-6 col-md-12 col-lg-12">
+                                <li>
+                                    <a href="https://www.gamelab.id/faq/" class="text-light">FAQ</a>
+                                </li>
+                            </div>
+                            <div class="col-6 col-md-12 col-lg-12">
+                                <li>
+                                    <a target="_blank" href="https://api.whatsapp.com/send?phone=6281232596412"
+                                        class="text-light">Hubungi Kami</a>
+                                </li>
+                                <li class="p-0 mt-0">
+                                    <ul class="list-unstyled">
+                                        <li class="d-inline mr-1">
+                                            <a class="text-light link-nodecor" target="_blank"
+                                                href="https://www.facebook.com/educagamelab">
+                                                <span class="small fa-stack">
+                                                    <i class="fa fa-stack-2x fa-circle text-white"></i>
+                                                    <i class="fa fa-stack-1x fa-facebook text-torquise"></i>
+                                                </span>
+                                                <!-- <i class="fa fa-facebook"></i> -->
+                                            </a>
+                                        </li>
+                                        <li class="d-inline mr-1">
+                                            <a class="text-light link-nodecor" target="_blank"
+                                                href="https://www.instagram.com/gamelab.id">
+                                                <span class="small fa-stack">
+                                                    <i class="fa fa-stack-2x fa-circle text-white"></i>
+                                                    <i class="fa fa-stack-1x fa-instagram text-torquise"></i>
+                                                </span>
+                                                <!-- <i class="fa fa-instagram"></i> -->
+                                            </a>
+                                        </li>
+                                        <li class="d-inline mr-1">
+                                            <a class="text-light link-nodecor" target="_blank"
+                                                href="https://twitter.com/GameLabID">
+                                                <span class="small fa-stack">
+                                                    <i class="fa fa-stack-2x fa-circle text-white"></i>
+                                                    <i class="fa fa-stack-1x fa-twitter text-torquise"></i>
+                                                </span>
+                                                <!-- <i class="fa fa-twitter"></i> -->
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="py-3 bg-dark text-light">
+        <p class="text-center px-5 mb-0 small d-flex flex-column flex-sm-row justify-content-center">
+            <span class="mb-1 mb-sm-0">&copy; 2018-2021. All Rights Reserved.</span>
+            <span>
+                <a class="text-light ml-0 ml-sm-3" target="" href="https://www.gamelab.id/term_condition">Term and
+                    Condition</a>
+                <a class="text-light ml-3" target="" href="https://www.gamelab.id/privacy_policy">Privacy Policy</a>
+            </span>
+        </p>
+    </footer>
+
+    <a class="" target="_blank" href="https://api.whatsapp.com/send?phone=6281232596412" style="
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:20px;
+        right:20px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    ">
+        <i class="fa fa-whatsapp position-relative" style="margin-top:16px;"></i>
+    </a>
+
+
+    <script src="https://www.gamelab.id/js/jquery.min.js"></script>
+    <script src="https://www.gamelab.id/js/bootstrap-4.1.3.bundle.min.js"></script>
+
+    <script>
+        /**
+         * Simple Load More
+         *
+         * Version: 1.4.0
+         * Author: Zeshan Ahmed
+         * Website: https://zeshanahmed.com/
+         * Github: https://github.com/zeshanshani/simple-load-more/
+         */
+        (function ($) {
+            $.fn.simpleLoadMore = function (options) {
+                // Settings.
+                var settings = $.extend({
+                    count: 5,
+                    itemsToLoad: 5,
+                    btnHTML: '',
+                    btnText: 'View More',
+                    item: '',
+                    cssClass: 'load-more',
+                    showCounter: false,
+                    counterText: 'Showing {showing} out of {total}'
+                }, options);
+
+                // Variables
+                var $loadMore = $(this);
+
+                // Run through all the elements.
+                $loadMore.each(function (i, el) {
+
+                    // Define all settings as variables
+                    var btnHTML = settings.btnHTML,
+                        btnText = settings.btnText,
+                        count = settings.count,
+                        itemsToLoad = settings.itemsToLoad,
+                        item = settings.item,
+                        cssClass = settings.cssClass,
+                        showCounter = settings.showCounter,
+                        counterText = settings.counterText;
+
+                    // Variables.
+                    var $thisLoadMore = $(this),
+                        $items = $thisLoadMore.find(item),
+                        $btnHTML,
+                        $counterHTML = $('<p class="slm__counter">' + counterText + '</p>');
+
+                    // If showCounter is true, then append the counter text in the component.
+                    if (showCounter) {
+                        $thisLoadMore.append($counterHTML);
+                    }
+
+                    // Default if not available
+                    if (!btnHTML) btnHTML = '<a href="#" class="' + cssClass + '__btn">' + btnText +
+                        '</a>';
+
+                    // Set $btnHTML as $btnHTML
+                    $btnHTML = $(btnHTML);
+
+                    // If options.itemsToLoad is not defined, then assign settings.count to it
+                    if (!options.itemsToLoad || isNaN(options.itemsToLoad)) {
+                        settings.itemsToLoad = settings.count;
+                    }
+
+                    // Add classes
+                    $thisLoadMore.addClass(cssClass);
+                    $items.addClass(cssClass + '__item');
+
+                    // Add button.
+                    if (!$thisLoadMore.find('.' + cssClass + '__btn').length && $items.length > settings
+                        .count) {
+                        $thisLoadMore.append($btnHTML);
+                    }
+
+                    // Replace counter with fields
+                    $btnHTML.add($counterHTML).html(function (i, oldHtml) {
+                        var newHtml = oldHtml.replace('{showing}',
+                            '<span class="slm__count slm__count--showing">' + count +
+                            '</span>');
+                        newHtml = newHtml.replace('{total}',
+                            '<span class="slm__count slm__count--total">' + $items.length +
+                            '</span>');
+
+                        return newHtml
+                    })
+
+                    var $btn = $thisLoadMore.find('.' + cssClass + '__btn');
+
+                    // Check if button is not present. If not, then attach $btnHTML to the $btn variable.
+                    if (!$btn.length) {
+                        $btn = $btnHTML;
+                    }
+
+                    if ($items.length > settings.count) {
+                        $items.slice(settings.count).hide();
+                    }
+
+                    // Add click event on button.
+                    $btn.on('click', function (e) {
+                        e.preventDefault();
+
+                        var $this = $(this);
+                        var $hiddenItems = $items.filter(':hidden');
+                        var $updatedItems = $hiddenItems;
+
+                        if (settings.itemsToLoad !== -1 && settings.itemsToLoad > 0) {
+                            $updatedItems = $hiddenItems.slice(0, settings.itemsToLoad);
+                        }
+
+                        // Show the selected elements.
+                        if ($updatedItems.length > 0) {
+                            $updatedItems.fadeIn();
+                        }
+
+                        // Update the showing items count.
+                        $thisLoadMore.find('.slm__count--showing').text($items.filter(
+                            ':visible').length);
+
+                        // Hide the 'View More' button
+                        // if the elements lenght is less than 5.
+                        // OR if the settings.itemsToLoad is set to -1.
+                        if ($hiddenItems.length <= settings.itemsToLoad || settings
+                            .itemsToLoad === -1) {
+                            $this.remove();
+                        }
+                    });
+                });
+            }
+        }(jQuery));
+    </script>
+
+    <script>
+        $('.items').simpleLoadMore({
+            item: '.item',
+            count: 6,
+            itemsToLoad: 3,
+            btnHTML: '<a href="#" class="btn btn-outline-primary">Show More +</a>'
+        });
+    </script>
+</body>
+
+</html>
