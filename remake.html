@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/remake.css">
+    <title>Internship Portofolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row min-vh-100 align-content-center">
+            <!-- Section Left -->
+            <div class="col-12 col-md-6 align-self-md-center">
+                <div class="card card-body bg-transparent border-0">
+                    <h1>Internship Portofolio</h1>
+                    <p>Gamelab Indonesia - Frontend Web Developer</br>13 June - 13 August 2021</p>
+                    <div>
+                        <a href="https://github.com/k-ardliyan/magang-gamelabindonesia" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-secondary rounded-pill me-2">
+                            <img src="assets/logo_github.svg" alt="github"> Repository
+                        </a>
+                        <a href="#logo-tech" class="btn btn-primary rounded-pill" data-bs-toggle="collapse"
+                            role="button">Whats Tech?</a>
+                    </div>
+                    <!-- Include Whats Tech? -->
+                    <div id="logo-tech" class="collapse pt-4">
+                        <img src="assets/logo_figma.svg" alt="figma" class="me-3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Figma">
+                        <img src="assets/logo_vscode.svg" alt="vscode" class="me-3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Visual Studio Code">
+                        <img src="assets/logo_html.svg" alt="html" class="me-3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="HTML">
+                        <img src="assets/logo_css.svg" alt="css" class="me-3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="CSS">
+                        <img src="assets/logo_javascript.svg" alt="javascipt" class="me-3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Java Script">
+                        <img src="assets/logo_bootstrap.svg" alt="bootstrap" class="me-3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Bootstrap">
+                        <img src="assets/logo_jquery.svg" alt="jquery" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="JQuery">
+                    </div>
+                </div>
+            </div>
+            <!-- Section Right -->
+            <div class="col-12 col-md-6 align-self-md-center">
+                <div class="card card-body my-2 bg-transparent border-0">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img src="assets/img_class_session.svg" alt="class_session" width="150px">
+                        </div>
+                        <div class="col align-self-center">
+                            <h2>Class Session</h2>
+                            <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                                data-bs-target="#htmlcssmodal">HTML/CSS</button>
+                            <!-- Modal HTML/CSS -->
+                            <div class="modal fade" id="htmlcssmodal" tabindex="-1" aria-labelledby="htmlcssmodal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img src="assets/kelas-21.png" alt="HTML/CSS" style="max-width: 450px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary rounded-pill dropdown-toggle" type="button"
+                                id="dropdown-bootstrap" data-bs-toggle="dropdown"
+                                aria-expanded="false">Bootstrap</button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-bootstrap">
+                                <li><a class="dropdown-item" href="#">1. Landing Page Bootstrap 4</a></li>
+                                <li><a class="dropdown-item" href="#">2. Profil</a></li>
+                                <li><a class="dropdown-item" href="#">3. Kontak</a></li>
+                                <li><a class="dropdown-item" href="#">4. Navigasi Halaman</a></li>
+                                <li><a class="dropdown-item" href="#">5. Carousel</a></li>
+                                <li><a class="dropdown-item" href="#">6. Landing Page Webinar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-body my-2 bg-transparent border-0">
+                    <div class="row">
+                        <div class="col-auto">
+                            <img src="assets/img_project_session.svg" alt="project_session" width="150px">
+                        </div>
+                        <div class="col align-self-center">
+                            <h2>Project Session</h2>
+                            <div>
+                                <button class="btn btn-primary rounded-pill">Landing Page</button>
+                                <button class="btn btn-primary rounded-pill">Dashboard</button>
+                                <button class="btn btn-primary rounded-pill">Re-design</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    </script>
+</body>
+
+</html>
