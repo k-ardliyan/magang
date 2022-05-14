@@ -60,6 +60,30 @@ p {
           transition-duration: .5s;
 }
 
+.btn.btn-secondary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn.btn-certificate {
+  color: #202945 !important;
+  background-color: gold;
+  border-color: transparent;
+}
+
+.btn.btn-certificate:hover {
+  background-color: #ffff32;
+  -webkit-filter: drop-shadow(0 0 0.3125rem #ffeb14);
+          filter: drop-shadow(0 0 0.3125rem #ffeb14);
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.btn.btn-certificate:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .bg-dark {
   background-color: #202945 !important;
 }
