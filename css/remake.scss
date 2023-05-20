@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
-@import url('https://css.gg/eye.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/eye.css');
 
 $bgcolor: #202945;
 $textcolor: #fafafafa;
@@ -38,8 +38,8 @@ p {
 
     &:hover {
         background-color: #374368 + 50%;
-        filter: drop-shadow(0 0 .3125rem #374368+20%);
-        transition-duration: .5s;
+        filter: drop-shadow(0 0 0.3125rem #374368 + 20%);
+        transition-duration: 0.5s;
     }
 
     &:focus {
@@ -54,8 +54,8 @@ p {
 
     &:hover {
         background-color: #cccccc + 50%;
-        filter: drop-shadow(0 0 .3125rem #cccccc+20%);
-        transition-duration: .5s;
+        filter: drop-shadow(0 0 0.3125rem #cccccc + 20%);
+        transition-duration: 0.5s;
     }
 
     &:focus {
@@ -70,8 +70,8 @@ p {
 
     &:hover {
         background-color: gold + 50%;
-        filter: drop-shadow(0 0 .3125rem gold+20%);
-        transition-duration: .5s;
+        filter: drop-shadow(0 0 0.3125rem gold + 20%);
+        transition-duration: 0.5s;
     }
 
     &:focus {
@@ -96,7 +96,7 @@ p {
 .modal-content {
     border-radius: 1.25rem;
     &:hover {
-        filter: drop-shadow(0 0 .5rem #374368+70%);
+        filter: drop-shadow(0 0 0.5rem #374368 + 70%);
         transition-duration: 1s;
     }
 }
@@ -115,13 +115,13 @@ p {
         opacity: 0.8;
         display: block;
         width: 100%;
-        transition: .5s ease;
+        transition: 0.5s ease;
         backface-visibility: hidden;
         border-radius: 20px;
     }
 
     .overlay-content {
-        transition: .5s ease;
+        transition: 0.5s ease;
         opacity: 0;
         position: absolute;
         top: 50%;
@@ -130,7 +130,7 @@ p {
         -ms-transform: translate(-50%, -50%);
 
         &:hover {
-            filter: drop-shadow(0 0 .5rem #cccccc+20%);
+            filter: drop-shadow(0 0 0.5rem #cccccc + 20%);
         }
     }
 }
